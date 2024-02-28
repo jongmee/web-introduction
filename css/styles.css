@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#introduction {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#introduction p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#movie {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#movie h1 {
+    color: #343a40;
+    font-size: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+th, td {
+    padding: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#guestbook {
+    margin-top: 50px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
